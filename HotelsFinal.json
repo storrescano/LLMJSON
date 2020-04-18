@@ -1,0 +1,698 @@
+[
+    {
+        "id": 0,
+        "nom": "Paco Alonso",
+        "estrelles": "5",
+        "mascotes": true,
+        "Petit": false,
+        "Mitja": true,
+        "Gran": false,
+        "TipusMoneda": "Yen",
+        "menjars": true,
+        "berenar": true,
+        "preuNet": "50",
+        "imposts": "21",
+        "preuTotal": "60.5",
+        "TipusMonedaMenjar": "Yen",
+        "dinar": false,
+        "preuNet2": "0",
+        "imposts2": "0",
+        "preuTotal2": "0",
+        "TipusMonedaMenjar2": "Yen",
+        "sopar": false,
+        "preuNet3": "0",
+        "imposts3": "0",
+        "preuTotal3": "0",
+        "TipusMonedaMenjar3": "Yen",
+        "habitaciones": [
+            {
+                "ID": "1",
+                "tipoHabitacion": "Deluxe",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "0111",
+                                "temporadaAlta": 10,
+                                "precioTotal1": 33.15
+                            },
+                            {
+                                "IDP": "0112",
+                                "temporadaBaja": 5,
+                                "precioTotal2": 22.1
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "0121",
+                                "temporadaAlta": 10,
+                                "precioTotal3": 39.78
+                            },
+                            {
+                                "IDP": "0122",
+                                "temporadaBaja": 5,
+                                "precioTotal4": 28.73
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "0131",
+                                "temporadaAlta": 10,
+                                "precioTotal5": 44.2
+                            },
+                            {
+                                "IDP": "0132",
+                                "temporadaBaja": 5,
+                                "precioTotal6": 33.15
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "2",
+                "tipoHabitacion": "Suit",
+                "serviciosHabitacion": {
+                    "camaIndividual": 2,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 2,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 5,
+                        "moneda": "EUR"
+                    },
+                    "television": 3
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "0211",
+                                "temporadaAlta": 40,
+                                "precioTotal1": 99.45
+                            },
+                            {
+                                "IDP": "0212",
+                                "temporadaBaja": 30,
+                                "precioTotal2": 77.35
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "0221",
+                                "temporadaAlta": 40,
+                                "precioTotal3": 106.08
+                            },
+                            {
+                                "IDP": "0222",
+                                "temporadaBaja": 30,
+                                "precioTotal4": 83.98
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "0231",
+                                "temporadaAlta": 40,
+                                "precioTotal5": 110.5
+                            },
+                            {
+                                "IDP": "0232",
+                                "temporadaBaja": 30,
+                                "precioTotal6": 88.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "3",
+                "tipoHabitacion": "Simple",
+                "serviciosHabitacion": {
+                    "camaIndividual": 1,
+                    "camaDoble": 0,
+                    "ducha": 1,
+                    "bañera": 0,
+                    "wc": 1,
+                    "minibar": 0,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 1
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "0311",
+                                "temporadaAlta": 20,
+                                "precioTotal1": 55.25
+                            },
+                            {
+                                "IDP": "0312",
+                                "temporadaBaja": 15,
+                                "precioTotal2": 44.2
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "0321",
+                                "temporadaAlta": 20,
+                                "precioTotal3": 61.88
+                            },
+                            {
+                                "IDP": "0322",
+                                "temporadaBaja": 15,
+                                "precioTotal4": 50.83
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "0331",
+                                "temporadaAlta": 20,
+                                "precioTotal5": 66.3
+                            },
+                            {
+                                "IDP": "0332",
+                                "temporadaBaja": 15,
+                                "precioTotal6": 55.25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "nom": "El Arenal",
+        "estrelles": "3",
+        "mascotes": true,
+        "Petit": true,
+        "Mitja": false,
+        "Gran": false,
+        "TipusMoneda": "Dolar",
+        "menjars": true,
+        "berenar": false,
+        "preuNet": "0",
+        "imposts": "0",
+        "preuTotal": "0",
+        "TipusMonedaMenjar": "Dolar",
+        "dinar": true,
+        "preuNet2": "20",
+        "imposts2": "21",
+        "preuTotal2": "24.2",
+        "TipusMonedaMenjar2": "Dolar",
+        "sopar": false,
+        "preuNet3": "0",
+        "imposts3": "0",
+        "preuTotal3": "0",
+        "TipusMonedaMenjar3": "Dolar",
+        "habitaciones": [
+            {
+                "ID": "1",
+                "tipoHabitacion": "Deluxe",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1111",
+                                "temporadaAlta": 100,
+                                "precioTotal1": 232.05
+                            },
+                            {
+                                "IDP": "1112",
+                                "temporadaBaja": 50,
+                                "precioTotal2": 121.55
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1121",
+                                "temporadaAlta": 100,
+                                "precioTotal3": 238.68
+                            },
+                            {
+                                "IDP": "1122",
+                                "temporadaBaja": 50,
+                                "precioTotal4": 128.18
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1131",
+                                "temporadaAlta": 100,
+                                "precioTotal5": 243.1
+                            },
+                            {
+                                "IDP": "1132",
+                                "temporadaBaja": 50,
+                                "precioTotal6": 132.6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "2",
+                "tipoHabitacion": "Suit",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1211",
+                                "temporadaAlta": 120,
+                                "precioTotal1": 276.25
+                            },
+                            {
+                                "IDP": "1212",
+                                "temporadaBaja": 60,
+                                "precioTotal2": 143.65
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1221",
+                                "temporadaAlta": 120,
+                                "precioTotal3": 282.88
+                            },
+                            {
+                                "IDP": "1222",
+                                "temporadaBaja": 60,
+                                "precioTotal4": 150.28
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1231",
+                                "temporadaAlta": 120,
+                                "precioTotal5": 287.3
+                            },
+                            {
+                                "IDP": "1232",
+                                "temporadaBaja": 60,
+                                "precioTotal6": 154.7
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "3",
+                "tipoHabitacion": "Simple",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1311",
+                                "temporadaAlta": 45,
+                                "precioTotal1": 110.5
+                            },
+                            {
+                                "IDP": "1312",
+                                "temporadaBaja": 25,
+                                "precioTotal2": 66.3
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1321",
+                                "temporadaAlta": 45,
+                                "precioTotal3": 117.13
+                            },
+                            {
+                                "IDP": "1322",
+                                "temporadaBaja": 25,
+                                "precioTotal4": 72.93
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1331",
+                                "temporadaAlta": 45,
+                                "precioTotal5": 121.55
+                            },
+                            {
+                                "IDP": "1332",
+                                "temporadaBaja": 25,
+                                "precioTotal6": 77.35
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nom": "Tomaca",
+        "estrelles": "4",
+        "mascotes": false,
+        "Petit": false,
+        "Mitja": false,
+        "Gran": false,
+        "TipusMoneda": "Euro",
+        "menjars": false,
+        "berenar": false,
+        "preuNet": "0",
+        "imposts": "0",
+        "preuTotal": "0",
+        "TipusMonedaMenjar": "Euro",
+        "dinar": false,
+        "preuNet2": "0",
+        "imposts2": "0",
+        "preuTotal2": "0",
+        "TipusMonedaMenjar2": "Euro",
+        "sopar": false,
+        "preuNet3": "0",
+        "imposts3": "0",
+        "preuTotal3": "0",
+        "TipusMonedaMenjar3": "Euro",
+        "habitaciones": [
+            {
+                "ID": "1",
+                "tipoHabitacion": "Deluxe",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1111",
+                                "temporadaAlta": 130,
+                                "precioTotal1": 298.35
+                            },
+                            {
+                                "IDP": "1112",
+                                "temporadaBaja": 70,
+                                "precioTotal2": 165.75
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1121",
+                                "temporadaAlta": 130,
+                                "precioTotal3": 304.98
+                            },
+                            {
+                                "IDP": "1122",
+                                "temporadaBaja": 70,
+                                "precioTotal4": 172.38
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1131",
+                                "temporadaAlta": 130,
+                                "precioTotal5": 309.4
+                            },
+                            {
+                                "IDP": "1132",
+                                "temporadaBaja": 70,
+                                "precioTotal6": 176.8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "2",
+                "tipoHabitacion": "Suit",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1211",
+                                "temporadaAlta": 180,
+                                "precioTotal1": 408.85
+                            },
+                            {
+                                "IDP": "1212",
+                                "temporadaBaja": 140,
+                                "precioTotal2": 320.45
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1221",
+                                "temporadaAlta": 180,
+                                "precioTotal3": 415.48
+                            },
+                            {
+                                "IDP": "1222",
+                                "temporadaBaja": 140,
+                                "precioTotal4": 327.08
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1231",
+                                "temporadaAlta": 180,
+                                "precioTotal5": 419.9
+                            },
+                            {
+                                "IDP": "1232",
+                                "temporadaBaja": 140,
+                                "precioTotal6": 331.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ID": "3",
+                "tipoHabitacion": "Simple",
+                "serviciosHabitacion": {
+                    "camaIndividual": 0,
+                    "camaDoble": 1,
+                    "ducha": 1,
+                    "bañera": 1,
+                    "wc": 1,
+                    "minibar": 1,
+                    "vistasAlMar": true,
+                    "Wifi": {
+                        "valor": 0,
+                        "moneda": "EUR"
+                    },
+                    "television": 2
+                },
+                "precios": [
+                    {
+                        "IDagregador1": "1",
+                        "precioAgregador1": 5,
+                        "agregador1": [
+                            {
+                                "IDP": "1311",
+                                "temporadaAlta": 85,
+                                "precioTotal1": 198.9
+                            },
+                            {
+                                "IDP": "1312",
+                                "temporadaBaja": 45,
+                                "precioTotal2": 110.5
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador2": "2",
+                        "precioAgregador2": 8,
+                        "agregador2": [
+                            {
+                                "IDP": "1321",
+                                "temporadaAlta": 85,
+                                "precioTotal3": 205.53
+                            },
+                            {
+                                "IDP": "1322",
+                                "temporadaBaja": 45,
+                                "precioTotal4": 117.13
+                            }
+                        ]
+                    },
+                    {
+                        "IDagregador3": "3",
+                        "precioAgregador3": 10,
+                        "agregador3": [
+                            {
+                                "IDP": "1331",
+                                "temporadaAlta": 85,
+                                "precioTotal5": 209.95
+                            },
+                            {
+                                "IDP": "1332",
+                                "temporadaBaja": 45,
+                                "precioTotal6": 121.55
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
