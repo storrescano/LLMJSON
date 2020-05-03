@@ -3,6 +3,14 @@
     "id": 0,
     "nom": "Prova1",
     "estrelles": "2",
+    "idioma": [
+      "castellà",
+      "català",
+      "anglès",
+      "euskera",
+      "alemany",
+      "japonès"
+    ],
     "habitacions": [
       {
         "id": 1,
@@ -105,6 +113,11 @@
   {
     "id": 1,
     "nom": "Prova 2",
+    "idioma": [
+      "castellà",
+      "català",
+      "japonès"
+    ],
     "estrelles": "4",
     "habitacions": [
       {
@@ -208,6 +221,11 @@
   {
     "id": 2,
     "nom": "Prova 3",
+    "idioma": [
+      "castellà",
+      "català",
+      "anglès"
+    ],
     "estrelles": "4",
     "habitacions": [
       {
