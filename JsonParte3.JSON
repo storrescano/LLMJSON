@@ -13,7 +13,7 @@
         ],
         "serveisHotel": {
             "gym": true,
-            "restaurant": true,
+            "restaurant": false,
             "spa": true,
             "piscina": true
         },
