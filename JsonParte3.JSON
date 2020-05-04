@@ -13,8 +13,8 @@
         ],
         "serveisHotel": {
             "gym": true,
-            "restaurant": true,
-            "spa": true,
+            "restaurant": false,
+            "spa": false,
             "piscina": true
         },
         "menjars": {
@@ -131,8 +131,8 @@
         ],
         "serveisHotel": {
             "gym": true,
-            "restaurant": false,
-            "spa": false,
+            "restaurant": true,
+            "spa": true,
             "piscina": false
         },
         "menjars": {
@@ -251,7 +251,7 @@
         "serveisHotel": {
             "gym": false,
             "restaurant": true,
-            "spa": false,
+            "spa": true,
             "piscina": true
         },
         "menjars": {
