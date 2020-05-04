@@ -249,10 +249,10 @@
             "anglès"
         ],
         "serveisHotel": {
-            "Gym": false,
-            "Restaurant": true,
-            "Spa": false,
-            "Piscina": true
+            "gym": false,
+            "restaurant": true,
+            "spa": false,
+            "piscina": true
         },
         "menjars": {
             "berenar": false,
