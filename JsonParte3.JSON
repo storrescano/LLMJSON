@@ -1,329 +1,347 @@
 [
-  {
-    "id": 0,
-    "nom": "Prova1",
-    "estrelles": "2",
-    "idioma": [
-      "castellà",
-      "català",
-      "anglès",
-      "euskera",
-      "alemany",
-      "japonès"
-    ],
-    "habitacions": [
-      {
+    {
+        "id": 0,
+        "nom": "Prova1",
+        "estrelles": "2",
+        "idioma": [
+            "castellà",
+            "català",
+            "anglès",
+            "euskera",
+            "alemany",
+            "japonès"
+        ],
+        "serveisHotel": {
+            "Gym": true,
+            "Restaurant": true,
+            "Spa": true,
+            "Piscina": true
+        },
+        "habitacions": [
+            {
+                "id": 1,
+                "nom": "hab1",
+                "llitIndiv": 1,
+                "llitDoble": 0,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nom": "hab2",
+                "llitIndiv": 0,
+                "llitDoble": 1,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nom": "hab3",
+                "llitIndiv": 2,
+                "llitDoble": 0,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": 1,
-        "nom": "hab1",
-        "llitIndiv": 1,
-        "llitDoble": 0,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          }
+        "nom": "Prova 2",
+        "idioma": [
+            "castellà",
+            "català",
+            "japonès"
+        ],
+        "serveisHotel": {
+            "Gym": true,
+            "Restaurant": true,
+            "Spa": false,
+            "Piscina": false
+        },
+        "estrelles": "4",
+        "habitacions": [
+            {
+                "id": 1,
+                "nom": "hab1",
+                "llitIndiv": 0,
+                "llitDoble": 2,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "llitIndiv": 1,
+                "llitDoble": 1,
+                "nom": "hab2",
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nom": "hab3",
+                "llitIndiv": 2,
+                "llitDoble": 0,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    }
+                ]
+            }
         ]
-      },
-      {
+    },
+    {
         "id": 2,
-        "nom": "hab2",
-        "llitIndiv": 0,
-        "llitDoble": 1,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          }
+        "nom": "Prova 3",
+        "idioma": [
+            "castellà",
+            "català",
+            "anglès"
+        ],
+        "serveisHotel": {
+            "Gym": false,
+            "Restaurant": true,
+            "Spa": false,
+            "Piscina": true
+        },
+        "estrelles": "4",
+        "habitacions": [
+            {
+                "id": 1,
+                "nom": "hab1",
+                "llitIndiv": 0,
+                "llitDoble": 1,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 10.0,
+                        "impost": 16,
+                        "valorTotal": 11.6
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nom": "hab2",
+                "llitIndiv": 1,
+                "llitDoble": 0,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 20.0,
+                        "impost": 16,
+                        "valorTotal": 23.2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nom": "hab3",
+                "llitIndiv": 2,
+                "llitDoble": 0,
+                "preu": [
+                    {
+                        "prov": "Prov1",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov2",
+                        "tempAlta": false,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    },
+                    {
+                        "prov": "Prov3",
+                        "tempAlta": true,
+                        "moneda": "€",
+                        "valorNet": 40.0,
+                        "impost": 16,
+                        "valorTotal": 46.4
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "id": 3,
-        "nom": "hab3",
-        "llitIndiv": 2,
-        "llitDoble": 0,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "nom": "Prova 2",
-    "idioma": [
-      "castellà",
-      "català",
-      "japonès"
-    ],
-    "estrelles": "4",
-    "habitacions": [
-      {
-        "id": 1,
-        "nom": "hab1",
-        "llitIndiv": 0,
-        "llitDoble": 2,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "llitIndiv": 1,
-        "llitDoble": 1,
-        "nom": "hab2",
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "nom": "hab3",
-        "llitIndiv": 2,
-        "llitDoble": 0,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "nom": "Prova 3",
-    "idioma": [
-      "castellà",
-      "català",
-      "anglès"
-    ],
-    "estrelles": "4",
-    "habitacions": [
-      {
-        "id": 1,
-        "nom": "hab1",
-        "llitIndiv": 0,
-        "llitDoble": 1,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 10.0,
-            "impost": 16,
-            "valorTotal": 11.6
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "nom": "hab2",
-        "llitIndiv": 1,
-        "llitDoble": 0,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 20.0,
-            "impost": 16,
-            "valorTotal": 23.2
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "nom": "hab3",
-        "llitIndiv": 2,
-        "llitDoble": 0,
-        "preu": [
-          {
-            "prov": "Prov1",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov2",
-            "tempAlta": false,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          },
-          {
-            "prov": "Prov3",
-            "tempAlta": true,
-            "moneda": "€",
-            "valorNet": 40.0,
-            "impost": 16,
-            "valorTotal": 46.4
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
