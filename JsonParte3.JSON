@@ -12,10 +12,15 @@
             "japonès"
         ],
         "serveisHotel": {
-            "Gym": true,
-            "Restaurant": true,
-            "Spa": true,
-            "Piscina": true
+            "gym": true,
+            "restaurant": true,
+            "spa": true,
+            "piscina": true
+        },
+        "menjars": {
+            "berenar": true,
+            "dinar": true,
+            "sopar": true
         },
         "habitacions": [
             {
@@ -125,10 +130,15 @@
             "japonès"
         ],
         "serveisHotel": {
-            "Gym": true,
-            "Restaurant": true,
-            "Spa": false,
-            "Piscina": false
+            "gym": true,
+            "restaurant": true,
+            "spa": false,
+            "piscina": false
+        },
+        "menjars": {
+            "berenar": true,
+            "dinar": false,
+            "sopar": true
         },
         "estrelles": "4",
         "habitacions": [
@@ -243,6 +253,11 @@
             "Restaurant": true,
             "Spa": false,
             "Piscina": true
+        },
+        "menjars": {
+            "berenar": false,
+            "dinar": true,
+            "sopar": false
         },
         "estrelles": "4",
         "habitacions": [
