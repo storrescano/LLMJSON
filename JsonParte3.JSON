@@ -3,14 +3,14 @@
         "id": 0,
         "nom": "Prova1",
         "estrelles": "2",
-        "idioma": [
-            "castellà",
-            "català",
-            "anglès",
-            "euskera",
-            "alemany",
-            "japonès"
-        ],
+        "idioma": {
+            "castellà": true,
+            "català": true,
+            "anglès": true,
+            "euskera": true,
+            "alemany": true,
+            "japonès": true
+        },
         "serveisHotel": {
             "gym": true,
             "restaurant": false,
@@ -124,11 +124,14 @@
     {
         "id": 1,
         "nom": "Prova 2",
-        "idioma": [
-            "castellà",
-            "català",
-            "japonès"
-        ],
+        "idioma": {
+            "castellà": true,
+            "català": true,
+            "anglès": true,
+            "euskera": false,
+            "alemany": false,
+            "japonès": false
+        },
         "serveisHotel": {
             "gym": true,
             "restaurant": true,
@@ -243,11 +246,14 @@
     {
         "id": 2,
         "nom": "Prova 3",
-        "idioma": [
-            "castellà",
-            "català",
-            "anglès"
-        ],
+        "idioma": {
+            "castellà": false,
+            "català": false,
+            "anglès": false,
+            "euskera": true,
+            "alemany": true,
+            "japonès": true
+        },
         "serveisHotel": {
             "gym": false,
             "restaurant": true,
